@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(228, 194, 221);
+}
+
+h1 {
+  color: darkblue;
+}
+
+.column {
+  color: rgb(144, 59, 59);
+}
+
+
+.om-mig {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.column {
+flex: 1;
+}
+
+@media (min-width: 768px) {
+  .om-mig {
+    flex-direction: row;
+  }
+}
